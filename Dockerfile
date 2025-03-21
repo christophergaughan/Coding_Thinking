@@ -1,4 +1,4 @@
-```
+
 # Use Miniconda as the base image
 FROM continuumio/miniconda3:latest
 
@@ -40,4 +40,3 @@ ENV PATH="/opt/conda/envs/dataengineering_env/bin:$PATH"
 # Start JupyterLab when the container runs
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--config=/root/.jupyter/jupyter_server_config.py"]
 
-```
