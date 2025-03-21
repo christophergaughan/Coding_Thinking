@@ -61,6 +61,7 @@ JupyterLab will automatically launch, and you can open it in your browser:
 No token or password is required.
 
 ## 📁 Directory Structure
+```
 .
 ├── Dockerfile
 ├── environment.yml
@@ -71,7 +72,7 @@ No token or password is required.
 ├── scripts/
 │   └── example_snippets.py
 ├── README.md
-
+```
 ## 🧠 Concepts Covered (In Progress)
 * `set()` vs `list` for membership checks
 * `dict.get()` for fast default handling
