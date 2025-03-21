@@ -48,20 +48,17 @@ This project is fully containerized using Docker, with a clean Python + Conda se
 
 ### 1. **Clone the repo**
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/christophergaughan/Coding_Thinking
 cd your-repo-name
 
 ## Build the Docker image
-`docker build -t data_ml_env .
-`
+`docker build -t data_ml_env .`
 
 ## Run the container
-`docker run -p 8888:8888 -v $(pwd):/app -it data_ml_env
-`
+`docker run -p 8888:8888 -v $(pwd):/app -it data_ml_env`
 JupyterLab will automatically launch, and you can open it in your browser:
-`http://127.0.0.1:8888/lab
-`
-No token or password required.
+`http://127.0.0.1:8888/lab`
+No token or password is required.
 
 ## 📁 Directory Structure
 .
