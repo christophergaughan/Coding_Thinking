@@ -47,10 +47,10 @@ This project is fully containerized using Docker, with a clean Python + Conda se
 ## 🚀 Getting Started
 
 ### 1. **Clone the repo**
-```bash
+```
 git clone https://github.com/christophergaughan/Coding_Thinking
 cd your-repo-name
-
+```
 ## Build the Docker image
 `docker build -t data_ml_env .`
 
