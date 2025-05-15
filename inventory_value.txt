@@ -1,0 +1,6 @@
+calculate_total_value output:
+💰 Total Inventory Value: $1960
+
+calculate_total_value output:
+💰 Total Inventory Value: $1960
+

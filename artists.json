@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Lil Codey",
+    "city": "Brooklyn",
+    "monthly_listeners": 95,
+    "verified": true
+  },
+  {
+    "name": "Data B",
+    "city": "Chicago",
+    "monthly_listeners": 40,
+    "verified": false
+  },
+  {
+    "name": "AI-nna",
+    "city": "Atlanta",
+    "monthly_listeners": 120,
+    "verified": true
+  },
+  {
+    "name": "Buggy D",
+    "city": "Detroit",
+    "monthly_listeners": 15,
+    "verified": false
+  },
+  {
+    "name": "Stackz",
+    "city": "Houston",
+    "monthly_listeners": 85,
+    "verified": true
+  }
+]
