@@ -39,12 +39,12 @@ This project is fully containerized using Docker to ensure **environment consist
 
 ### Quick Start
 
-```bash
+```
 # Build the Docker image
-docker build -t coding_thinking .
+`docker build -t coding_thinking .`
 
 # Run the container with port mapping
-docker run -it -p 8888:8888 coding_thinking
+`docker run -it -p 8888:8888 coding_thinking
 
 
 ## Getting Started
