@@ -39,7 +39,7 @@ This project is fully containerized using Docker to ensure **environment consist
 
 ### Quick Start
 
-```
+
 # Build the Docker image
 `docker build -t coding_thinking .`
 
