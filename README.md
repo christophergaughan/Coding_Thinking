@@ -76,24 +76,38 @@ No token or password is required.
 │   └── example_snippets.py
 ├── README.md
 ```
-## Concepts Covered (In Progress)
-* `set()` vs `list` for membership checks
-* `dict.get()` for fast default handling
-* Dictionary comprehension
-* Looping patterns and idioms
-* `enumerate()` vs `range(len(...))`
-* Custom function design patterns
-* Error handling & try/except use cases
-* And more to come...
+## 📘 Concepts Covered (Ongoing Buildout)
+* Efficient use of `set()` vs `list` for membership and lookup
+* Clean dictionary patterns: `dict.get()`, `setdefault()`, and unpacking tricks
+* Dictionary & list comprehensions (including nested examples)
+* Common Pythonic loops and control flow idioms
+* When to use `enumerate()` vs `range(len(...))`
+* Custom function patterns: args, kwargs, default values
+* Intro to `try/except` for clean error handling
+* Algorithm "licks": reusable logic chunks for pattern recognition
+* Functional tools: `lambda`, `map`, `filter`, `zip` (coming soon)
 
-## Future Improvements
- * Add example walkthroughs for collections.defaultdict and Counter
- * Integrate type hints and basic testing
- * Explore dataclasses and basic OOP
- * Add ML notebooks (e.g., sklearn pipeline, model evaluation)
+---
 
-## Contributing
-**This is a personal learning project for now, but PRs and suggestions are welcome.**
+## 🚧 In Progress + Planned Upgrades
+* 🧰 Walkthroughs for `collections.defaultdict`, `Counter`, and `deque`
+* 🧪 Add type hints + unit test examples for key functions
+* 🎯 Real-world applications of `@dataclass` and basic OOP
+* 📈 Scikit-learn ML notebook series:
+  - Classification + regression pipelines
+  - Feature engineering & evaluation metrics
+* 🧠 **LeetCode Strategy Section** (coming July 2025):
+  - Pattern-based solutions: sliding window, two-pointers, recursion
+  - Annotated breakdowns of classic problems
+  - Interview-ready code snippets & complexity analysis
+
+---
+
+## 🤝 Contributing
+
+This is an open learning repo aimed at helping others level up in Python and algorithmic thinking — especially those coming from underrepresented or underserved backgrounds.
+
+**PRs, suggestions, and feedback are welcome.** Got a clean way to teach a concept? Send it in.
 
 ## License
 This project is licensed under the MIT License.
