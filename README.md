@@ -33,11 +33,11 @@ This project is fully containerized using Docker to ensure **environment consist
 - Conda environment: `data_ml_env`
 - No password/token for local dev (use with caution in public networks)
 
-### 📦 Pre-installed Packages:
+### Pre-installed Packages:
 - Data science: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
 - Dev workflow: `jupyterlab`, `notebook`, `ipykernel`
 
-### 🚀 Quick Start
+### Quick Start
 
 ```bash
 # Build the Docker image
@@ -76,7 +76,7 @@ No token or password is required.
 │   └── example_snippets.py
 ├── README.md
 ```
-## 📘 Concepts Covered (Ongoing Buildout)
+## Concepts Covered (Ongoing Buildout)
 * Efficient use of `set()` vs `list` for membership and lookup
 * Clean dictionary patterns: `dict.get()`, `setdefault()`, and unpacking tricks
 * Dictionary & list comprehensions (including nested examples)
@@ -89,14 +89,14 @@ No token or password is required.
 
 ---
 
-## 🚧 In Progress + Planned Upgrades
-* 🧰 Walkthroughs for `collections.defaultdict`, `Counter`, and `deque`
-* 🧪 Add type hints + unit test examples for key functions
-* 🎯 Real-world applications of `@dataclass` and basic OOP
+## In Progress + Planned Upgrades
+* Walkthroughs for `collections.defaultdict`, `Counter`, and `deque`
+* Add type hints + unit test examples for key functions
+* Real-world applications of `@dataclass` and basic OOP
 * 📈 Scikit-learn ML notebook series:
   - Classification + regression pipelines
   - Feature engineering & evaluation metrics
-* 🧠 **LeetCode Strategy Section** (coming July 2025):
+* **LeetCode Strategy Section** (coming July 2025):
   - Pattern-based solutions: sliding window, two-pointers, recursion
   - Annotated breakdowns of classic problems
   - Interview-ready code snippets & complexity analysis
