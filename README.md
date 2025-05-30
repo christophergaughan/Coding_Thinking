@@ -22,27 +22,30 @@ This repository focuses on **intermediate-level Python coding** concepts and bes
 > The goal is to build a strong intuition around Python’s efficient built-in tools and reusable coding patterns.
 
 ---
-
 ## 🐳 Docker Environment
 
-This project is fully containerized using Docker, with a clean Python + Conda setup inside the image for consistent reproducibility across machines.
+This project is fully containerized using Docker to ensure **environment consistency**, **quick onboarding**, and **no dependency hell**.
 
-### Base Environment Includes:
-- `Python 3.10.14`
-- `Miniconda`
-- `JupyterLab`
-- Support for future ML/DL/data workflows if needed
+### 🔧 Base Environment Includes:
+- Python `3.10.14`
+- Miniconda (via `continuumio/miniconda3` base image)
+- JupyterLab (auto-launched on port `8888`)
+- Conda environment: `data_ml_env`
+- No password/token for local dev (use with caution in public networks)
 
-### `Dockerfile` Summary:
-- Starts from `continuumio/miniconda3`
-- Installs a Conda environment named `data_ml_env`
-- Automatically launches `JupyterLab` on port `8888`
-- Disables password/token auth for faster local development
-- Includes pip-installed packages like:
-  - `numpy`, `pandas`, `matplotlib`, `scikit-learn`, `seaborn`
-  - `jupyterlab`, `notebook`
+### 📦 Pre-installed Packages:
+- Data science: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
+- Dev workflow: `jupyterlab`, `notebook`, `ipykernel`
 
----
+### 🚀 Quick Start
+
+```bash
+# Build the Docker image
+docker build -t coding_thinking .
+
+# Run the container with port mapping
+docker run -it -p 8888:8888 coding_thinking
+
 
 ## Getting Started
 
