@@ -103,7 +103,7 @@ No token or password is required.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is an open learning repo aimed at helping others level up in Python and algorithmic thinking — especially those coming from underrepresented or underserved backgrounds.
 
