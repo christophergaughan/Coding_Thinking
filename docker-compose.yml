@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  jupyter:
+    image: dataengineering_env
+    container_name: jupyter_dock
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    command: jupyter notebook --ip=0.0.0.0 --NotebookApp.token='' --allow-root

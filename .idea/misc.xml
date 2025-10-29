@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="nat_data3" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.10.14 Docker (&lt;none&gt;:&lt;none&gt;)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="dataengineering_env" project-jdk-type="Python SDK" />
 </project>

@@ -15,6 +15,9 @@ SHELL ["/bin/bash", "-c"]
 ENV PATH="/opt/conda/envs/dataengineering_env/bin:$PATH"
 ENV CONDA_DEFAULT_ENV=dataengineering_env
 
+# Install docutils and sphinx for reStructuredText processing
+RUN pip install docutils sphinx
+
 # Install Jupyter and Notebook
 RUN pip install jupyter jupyterlab notebook
 
